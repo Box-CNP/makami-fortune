@@ -456,7 +456,7 @@
         function displayFortuneResult(castle) {
             const tweetText = `今日の占いは【${castle.城名}】🏯 ${castle.キャッチ}`;
             const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&hashtags=${encodeURIComponent('マカミ占い,ゆるバース')}`;
-            const voteUrl = "https://www.yurugp.jp/"; // 実際の投票URLに差し替え
+            const voteUrl = "https://www.yurugp.jp/characters/4333"; // マカミの投票ページ
 
             const canDraw = canDrawGacha();
 
